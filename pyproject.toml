@@ -1,0 +1,24 @@
+[project]
+name = "windfreak"
+authors = [
+    {name="Christian Hahn", email="christianhahn09@gmail.com"},
+]
+version = "0.3.0"
+description = "Python package for Windfreak Technologies devices."
+readme = "README.md"
+requires-python = ">=3.8,<4.0"
+dependencies = [
+    "pyserial"
+]
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+
+[project.urls]
+Homepage = "https://github.com/cmmeyer1800/windfreak-python"
+Repository = "https://github.com/cmmeyer1800/windfreak-python.git"
+Issues = "https://github.com/cmmeyer1800/windfreak-python/issues"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
